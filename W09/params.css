@@ -1,0 +1,40 @@
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+header {
+  border-bottom: 1px solid coral;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.logoImg {
+  border-radius: 50% 25%;
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+}
+
+.product {
+  border: 1px solid;
+  max-width: 300px;
+  padding: 1em;
+  margin: 1em auto;
+}
+
+@media screen and (min-width: 600px) {
+  .product {
+    max-width: 600px;
+    display: flex;
+  }
+  .product__details {
+    margin: 1em;
+  }
+}
